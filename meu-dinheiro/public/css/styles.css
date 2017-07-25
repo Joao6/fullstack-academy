@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.header{
+    background: grey;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    background: #e2e2e2;
+}

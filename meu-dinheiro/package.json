@@ -1,0 +1,16 @@
+{
+  "name": "meu-dinheiro",
+  "version": "1.0.0",
+  "description": "Projeto criado no Fullstack Academy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joao Pedro",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3"
+  }
+}
