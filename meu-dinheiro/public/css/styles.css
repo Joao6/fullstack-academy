@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: sans-serif;
 }
 
 .header{
@@ -10,4 +11,13 @@ body {
 
 .content {
     background: #e2e2e2;
+}
+
+.resultado {
+    width: 300px;
+    margin: 0 auto;
+    background: orangered;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
 }

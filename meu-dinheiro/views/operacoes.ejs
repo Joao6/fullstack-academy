@@ -1,0 +1,39 @@
+<% include header %>
+    <h2>Operações</h2>
+    <a href="/operacoes">Todas</a>
+    <a href="/operacoes?filtro=entrada">Entrada</a>
+    <a href="/operacoes?filtro=saida">Saida</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Descrição</th>
+                <th>Valor</th>
+                <th>Sub-total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% let valorAtual = 0 %>
+                <%  operacoes.forEach((operacao) => { %>
+                    <% valorAtual += operacao.valor %>
+                        <tr>
+                            <td>
+                                <%= operacao.descricao%>
+                            </td>
+                            <td>R$
+                                <%= operacao.valor%>
+                            </td>
+                            <td>R$
+                                <%= valorAtual %>
+                            </td>
+                        </tr>
+                        <% }) %>
+                            <tr>
+                                <td></td>
+                                <td>Saldo</td>
+                                <td>R$
+                                    <%= valorAtual %>
+                                </td>
+                            </tr>
+        </tbody>
+    </table>
+    <% include footer %>
