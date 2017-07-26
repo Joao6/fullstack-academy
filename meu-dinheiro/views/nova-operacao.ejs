@@ -1,8 +1,14 @@
 <% include header %>
     <h2>Nova operação</h2>
-    <form method="POST">
-        Descrição: <input type="text" name="descricao"><br>
-        Valor: <input type="text" name="valor"><br>
+    <form method="POST" class="form">
+        <div class="form-field">
+            <label for="descricao">Descrição: </label><br>
+            <input id="descricao" type="text" name="descricao"><br>
+        </div>
+        <div class="form-field">
+            <label for="valor">Valor: </label><br>
+            <input id="valor" type="text" name="valor"><br>
+        </div>            
         <button type="submit">Confirmar</button>
     </form>    
 <% include footer %>

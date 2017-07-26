@@ -1,9 +1,18 @@
 <% include header %>
     <h2>Nova conta</h2>
-    <form method="POST">
-        Descrição: <input type="text" name="descricao"><br>
-        Valor estimado: <input type="text" name="valor"><br>
-        Dia de vencimento: <input type="text" name="vencimento"><br>
+    <form method="POST" class="form">
+        <div class="form-field">
+            <label for="descricao">Descrição:</label><br>
+            <input id="descricao" type="text" name="descricao"><br>
+        </div>
+        <div class="form-field">
+            <label for="valor">Valor estimado:</label><br>
+            <input id="valor" type="text" name="valor"><br>
+        </div>
+        <div class="form-field">
+            <label for="vencimento">Dia de vencimento:</label><br>
+            <input id="vencimento" type="text" name="vencimento"><br>
+        </div>
         <button type="submit">Confirmar</button>
-    </form>    
-<% include footer %>
+    </form>
+    <% include footer %>

@@ -10,7 +10,7 @@ body {
 }
 
 .content {
-    background: #e2e2e2;
+    margin: 20px;
 }
 
 .resultado {
@@ -20,4 +20,77 @@ body {
     padding: 10px;
     text-align: center;
     border-radius: 10px;
+}
+
+.navbar{
+    text-align: center;
+    background: orangered;
+}
+ .navbar ul {     
+     display: inline-flex;
+ }
+
+ .navbar li{
+     margin-right: 15px;
+ }
+
+ .navbar ul li{          
+     list-style-type: none;
+     padding: 15px;
+     margin: -16px 0 -16px 0;
+ }
+
+ .navbar ul li:hover{
+     background: orange;
+ }
+
+ .navbar ul li{
+    color: white;
+    font-weight: 700;    
+ }
+
+ .navbar ul a{
+     text-decoration: none;
+ }
+
+ .form-field label{
+     font-weight: 700;
+     color: #0a172d;
+ }
+
+ .form-field input{
+     margin-bottom: 5px;
+ }
+
+ .form button{
+     margin-left: 107;
+ }
+
+ table{
+     border-collapse: collapse;
+     width: 25em;
+     border: 1px solid #666;
+ }
+
+ th{
+     text-align: left;
+     padding: 10px;
+ }
+
+ td{     
+     padding: 10px;
+ }
+
+ th td{
+     padding: 10px;
+ }
+
+ thead{    
+    background: orangered;
+    color: white;
+    margin: 5px;
+ }
+
+ tr:nth-child(even) {
+    background-color: #e0e0e0;
 }
