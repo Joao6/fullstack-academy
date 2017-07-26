@@ -18,15 +18,8 @@
         </form>
     </div>
 
-    <% if(resultado.calculado){ %>
-        <div class="resultado">
-            <h2>Resultado</h2>
-            <p>
-                R$
-                <%= resultado.total.toFixed(2) %>
-            </p>
-        </div>
-        <h3>Evolução</h3>
+    <% if(resultado.calculado){ %>                            
+        <h3>Resultado R$ <%= resultado.total.toFixed(2) %></h3>
         <table class="table">
             <thead>
                 <tr>
